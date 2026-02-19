@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <picture>
+        
+        <source media="(max-width: 750px)" srcset="imagens/pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/media.png" type="image/png">
+        <img src="imagens/grande.png" alt="pequena">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <audio src="midia/Gravando (2).m4a" controls autoplay></audio>
+    <audio preload="metadata" controls autoplay> 
+        <source src="midia/Gravando (2).m4a" type="audio/x-m4a">
+    </audio>
+</body>
+</html>
